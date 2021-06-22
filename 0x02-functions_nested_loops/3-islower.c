@@ -1,10 +1,9 @@
 #include "holberton.h"
 
 /**
- * _islower  - check the code for ALX School students.
- * int c - passed from main function
- *
- * Return: Always 0.
+ * _islower  - Short description, single line
+ * @c: contians value to be compared
+ * Return: Always returns zero
  */
 
 int _islower(int c)
