@@ -1,13 +1,26 @@
+#include "holberton.h"
+
 /**
- * _islower  - Short description, single line
- * @c: contians value to be compared
- * Return: Always returns zero
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ *
+ * Return: Always 0.
  */
 
 void jack_bauer(void)
 {
-	int i;
+	int hr;
+	int min;
 
-	for (int i )
+	for (hr = 0; hr < 24; hr++)
+	{
+		for (min = 0; min < 60; min++)
+		{
+			_putchar((hr / 10) + '0');
+			_putchar((hr % 10) + '0');
+			_putchar(':');
+			_putchar((min / 10) + '0');
+			_putchar((min % 10) + '0');
+			_putchar('\n');
+		}
+	}
 }
-
