@@ -1,5 +1,3 @@
-#include "holberton.h"
-
 /**
  * _isupper  - Short description, single line
  * @c: contians value to be compared
