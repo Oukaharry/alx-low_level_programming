@@ -13,15 +13,15 @@ void rev_string(char *s)
 
 	while (*(s + count) != '\0')
 	{
-		*(new + count) = *(s + count);
+		new[count] = *(s + count);
 		count++;
 	}
 
 	count--;
 
-	while (count > 0)
+	while (count >= 0)
 	{
-		*(s + newcount) = *(new + count);
+		*(s + newcount) = new[count];
 		count--;
 		newcount++;
 	}
